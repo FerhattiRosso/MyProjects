@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+DE+Grund:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.sidebarContainer {
+  width: 150px;
+  height: 100vw;
+  position: fixed;
+  background-color: #222;
+}
+.sidebarItem img {
+  width: 150px;
+  height: 150px;
+  opacity: 0.2;
+}
+.sidebarMenu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.sidebarMenu i {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #ffff;
+}
+.sidebarMenu h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  text-align: justfy-center;
+  color: #ffff;
+}
+.sidebarMenu:hover {
+  background-color: black;
+  transition: 0.5s ease;
+}
+.homePageContainer {
+  position: relative;
+  left: 150px;
+  width: 90%;
+}
+.homePageTitle h1 {
+  text-align: center;
+  padding-top: 40px;
+  color: #ffff;
+  font-family: "Sofadi One", system-ui;
+  font-size: 72px;
+  letter-spacing: 3px;
+}
+.homePageEng p {
+  text-align: center;
+  padding-top: 40px;
+  color: #ffff;
+  font-family: "Sofadi One", system-ui;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+.image img {
+  width: 100%;
+  height: 720px;
+  opacity: 0.2;
+  margin-top: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.myName {
+  margin-top: 100px;
+  width: 300px;
+  padding-left: 60px;
+}
+.myName h2 {
+  color: #ffff;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: "Sofadi One", system-ui;
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+}
+.myText {
+  margin-top: 50px;
+  max-width: 1300px;
+  display: block;
+  padding-left: 60px;
+}
+.myText p {
+  color: #ffff;
+  line-height: 40px;
+  margin-inline-end: 0px;
+  text-align: justify !important;
+}
+.mySkills {
+  padding-left: 60px;
+  margin-top: 50px;
+}
+.mySkillsHeader {
+  width: 250px;
+}
+.mySkillsHeader h2 {
+  color: #ffff;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: "Sofadi One", system-ui;
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+}
+.mySkillsHeader h3 {
+  margin-top: 30px;
+  color: #616161;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: "Sofadi One", system-ui;
+}
+.mySkillHtml {
+  background-color: #ffff !important;
+  height: 30px;
+  max-width: 1251.91px;
+  display: block;
+  margin-top: 20px;
+  color: #000 !important;
+}
+.mySkillHtmlGrey {
+  width: 70%;
+  height: 30px;
+  background-color: #616161 !important;
+  color: #ffff !important;
+}
+.mySkillCSS {
+  background-color: #ffff !important;
+  height: 30px;
+  max-width: 1251.91px;
+  display: block;
+  margin-top: 20px;
+  color: #000 !important;
+}
+.mySkillGreyCSS {
+  width: 50%;
+  height: 30px;
+  background-color: #616161 !important;
+  color: #ffff !important;
+}
+.cssHeader {
+  margin-top: 30px;
+  color: #616161;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: "Sofadi One", system-ui;
+}
+.mySkillJS {
+  background-color: #ffff !important;
+  height: 30px;
+  max-width: 1251.91px;
+  display: block;
+  margin-top: 20px;
+  color: #000 !important;
+}
+.mySkillGreyJS {
+  width: 30%;
+  height: 30px;
+  background-color: #616161 !important;
+  color: #ffff !important;
+}
+.JSHeader {
+  margin-top: 30px;
+  color: #616161;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: "Sofadi One", system-ui;
+}
+.myPrice {
+  color: #ffff;
+  display: flex;
+  margin-top: 100px;
+  padding-left: 60px;
+  max-width: 1300px;
+}
+.myPriceBasic {
+  width: 50%;
+  opacity: 0.3;
+}
+.myPriceBasicList {
+  text-align: center;
+}
+.basic1 {
+  border: 1px solid;
+  border-color: #ffff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 24px;
+  background-color: #616161;
+}
+.basic {
+  border: 1px solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffff;
+  color: #616161;
+}
+.myPricePro {
+  width: 50%;
+  margin-left: 30px;
+  opacity: 0.3;
+}
+.myPriceProList {
+  text-align: center;
+}
+.myPriceBasic:hover {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+.myPricePro:hover {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+.button {
+  border: 1px solid;
+  border-color: #ffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  background-color: #bfbfbf;
+}
+.signUp {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #616161;
+  background-color: #ffff;
+  border: none;
+  cursor: pointer;
+}
+.signUp:hover {
+  background-color: #616161;
+  color: #ffff;
+  transition: 0.4s ease-in-out;
+}
+.contactMe {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contactMe i {
+  font-size: 64px;
+  background-color: #0000;
+  color: #616161;
+}
+.contactMeText {
+  margin-top: 80px;
+  padding-left: 60px;
+  width: 450px;
+}
+.contactMeText h2 {
+  color: #ffff;
+  font-size: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  border-color: #ffff;
+  font-family: "Sofadi One", system-ui;
+}
+.contactMe i:hover {
+  transform: scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #0000;
+  margin-top: 100px;
+  border-left: 2px solid;
+  text-align: center;
+  color: #ffff;
+}
+.footer h3 {
+  font-family: "Sofadi One", system-ui;
+}
